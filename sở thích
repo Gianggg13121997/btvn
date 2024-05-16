@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<STYLE>
+    h1 {
+        background-color: red;
+        text-align: center;
+    }
+
+    td {
+        color: blue;
+    }
+
+    span {
+        color: orangered;
+    }
+    
+</STYLE>
+
+<body>
+    <h1 style="color: white;alin">SỞ THÍCH CỦA BẠN</h1>
+    <table>
+        <tr>
+            <td>Họ và tên</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="text"></td>
+        </tr>
+
+    </table>
+
+    <table>
+        <tr>
+            <td>Sở thích</td>
+            <td><input type="checkbox" name="hobby"><span>Thể Thao</span></td>
+            <td><input type="checkbox" name="hobby"><span>Âm Nhạc</span></td>
+            <td><input type="checkbox" name="hobby"><span>Đọc Sách</span></td>
+
+
+        </tr>
+        <br>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" name="hobby"><span>Lướt web</span></td>
+            <td><input type="checkbox" name="hobby"><span>Chơi game</span></td>
+            <td><input type="checkbox" name="hobby"><span>Điện Ảnh</span></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" name="hobby"><span>Du lịch</span></td>
+        </tr>
+    </table>
+    <br>
+    <input type="button" value="Gửi Thông tin">
+    <input type="reset" value="Nhập lại">
+</body>
+
+</html>
