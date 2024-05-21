@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Đổi độ C sang độ F :</h2>
+    <br>
+    <input type="text" placeholder="Nhập độ C" id="C">
+    <button onclick="chuyen()">Chuyển</button>
+    <script>
+        function chuyen(){
+            let doC = document.getElementById("C").value;
+            let doF = doC*9/5+32;
+            document.write("Độ F là :" + doF);
+        }
+    </script>
+</body>
+</html>
